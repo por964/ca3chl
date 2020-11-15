@@ -2,4 +2,4 @@
 
 This project is deployed at: https://www.claesvonh.dk/ca3chl/
 
-Frontend for this project is deployed at: abiding-veil.surge.sh
+Frontend for this project is deployed at: http://abiding-veil.surge.sh/
