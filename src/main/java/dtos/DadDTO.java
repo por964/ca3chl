@@ -1,7 +1,5 @@
 package dtos;
 
-import jokeEntities.DadJoke;
-
 /**
  *
  * @author claes
@@ -10,12 +8,11 @@ public class DadDTO {
     
     private String url = "https://icanhazdadjoke.com";
     private String joke;
-    private DadJoke dj;
 
 
-    public DadDTO(DadJoke dj, String url) {
+    public DadDTO(String joke) {
         this.url = url;
-        this.joke = dj.getJoke();
+
     }
 
     public DadDTO() {

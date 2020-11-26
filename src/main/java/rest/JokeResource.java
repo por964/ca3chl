@@ -5,7 +5,6 @@ import com.google.gson.GsonBuilder;
 import dtos.ChuckDTO;
 import dtos.CombinedJokesDTO;
 import dtos.DadDTO;
-import jokeEntities.ChuckJoke;
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

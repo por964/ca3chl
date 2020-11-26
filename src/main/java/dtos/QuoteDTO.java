@@ -1,7 +1,5 @@
 package dtos;
 
-import jokeEntities.Quote;
-
 /**
  *
  * @author claes
@@ -12,11 +10,6 @@ public class QuoteDTO {
     private String quote;
     private String url = "https://seinfeld-quotes.herokuapp.com/random";
 
-    public QuoteDTO(Quote sw) {
-        this.quote = sw.getQuote();
-        this.url = sw.getUrl();
-    }
-    
     public QuoteDTO(String quote) {
         this.quote = quote;
     }

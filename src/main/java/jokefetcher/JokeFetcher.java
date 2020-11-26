@@ -1,7 +1,6 @@
 package jokefetcher;
 
 import com.google.gson.Gson;
-import static com.sun.org.apache.xalan.internal.lib.ExsltDatetime.time;
 import dtos.ChuckDTO;
 import dtos.CombinedJokesDTO;
 import dtos.DadDTO;
@@ -10,7 +9,6 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import utils.HttpUtils;
 
